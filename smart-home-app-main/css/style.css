@@ -1,0 +1,1072 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*********** Header start ***********/
+
+.container {
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 140px;
+  background-color: #661180;
+}
+
+.header__logo-link {
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__item {
+  font-size: 18px;
+  list-style: none;
+  margin: 40px;
+}
+
+.menu__link {
+  color: white;
+  text-decoration: none;
+}
+
+.menu__link--active:hover {
+  text-shadow: 0px 0px 5px rgb(255, 53, 174);
+  transition: 0.5ms;
+}
+
+.header__search-input {
+  width: 270px;
+  height: 35px;
+  border-radius: 30px;
+  background-color: none;
+  border: 1px solid white;
+  background-color: inherit;
+  color: white;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+.header__search-input--focus:focus {
+  outline: none;
+}
+
+.header__search-input::placeholder {
+  color: white;
+  font-size: 16px;
+  text-align: right;
+}
+
+.media__list {
+  display: flex;
+}
+
+.media__item {
+  padding: 10px;
+  list-style: none;
+}
+
+.navbar-mobile {
+}
+
+.header__navbar-mobile {
+  display: none;
+}
+
+.navbar-mobile__list {
+  display: none;
+}
+
+.navbar-mobile__item {
+  list-style: none;
+}
+
+.navbar-mobile__link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-mobile__hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-mobile__bar {
+}
+
+/*********** Header end ***********/
+
+/*********** Get-started start ***********/
+
+.main {
+  background: linear-gradient(to bottom, #661180, #fd01a5, #661180);
+}
+
+.get-started {
+  height: 605px;
+}
+
+.get-started__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.get-started__text-container {
+}
+
+.get-started__title {
+  font-size: 80px;
+  color: white;
+  letter-spacing: 2px;
+  font-family: "Audiowide", sans-serif;
+  margin: 0;
+}
+
+.get-started__subtitle {
+  color: white;
+  font-size: 44px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.get-started__text {
+  color: white;
+}
+
+.get-started__button {
+  color: white;
+  width: 180px;
+  height: 35px;
+  font-size: 16px;
+  background-color: inherit;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.get-started__image {
+  max-width: 100%;
+}
+
+.get-started__button--active:hover {
+  box-shadow: 0px 0px 20px 0px #c850db;
+}
+
+/*********** Get-started end ***********/
+
+/*********** Offers-block start ***********/
+
+.offers-block {
+  height: 600px;
+}
+
+.offers-block__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.offers-block__image {
+}
+
+.offers-block__image-item {
+  width: 480px;
+}
+
+.offers-block__title {
+  font-family: "Audiowide", sans-serif;
+  font-size: 48px;
+  color: white;
+  margin: 0;
+}
+
+.offers-block__subtitle {
+  font-size: 24px;
+  color: white;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.offers-block__text-container {
+}
+
+.offers-block__text {
+  color: white;
+  margin-top: 35px;
+}
+
+.offers-block__offers-list {
+  display: flex;
+  flex-direction: row;
+}
+
+/*********** Offers-block end***********/
+
+/*********** Offers-bottom start ***********/
+
+.offers-bottom {
+  height: 370px;
+}
+
+.offers-bottom__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.offers__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.offers__item {
+  padding: 40px;
+}
+
+.offers__image {
+  width: 130px;
+  height: 130px;
+}
+
+.offers__title {
+  font-size: 26px;
+  color: white;
+}
+
+.offers__text {
+  color: white;
+}
+
+/*********** Offers-bottom end ***********/
+
+/*********** Types-block start ***********/
+
+.types-block {
+  height: 750px;
+}
+
+.types-block__container {
+  text-align: center;
+}
+
+.types-block__title {
+  font-size: 40px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.types-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.types-list__item {
+  border-top: 1px solid white;
+  border-bottom: 1px solid black;
+  box-shadow: inset 0 0 30px #8000ff;
+  background: linear-gradient(to bottom, #651197, #9d47aa);
+  border-radius: 15px;
+  padding: 20px;
+  margin-right: 30px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.types-list__title {
+  color: white;
+  font-size: 28px;
+  font-family: "Audiowide", sans-serif;
+}
+
+.types-list__text {
+  color: white;
+}
+
+.types-list__button {
+  color: white;
+  width: 180px;
+  height: 35px;
+  font-size: 16px;
+  background-color: inherit;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.types-list__button--active:hover {
+  box-shadow: 0px 0px 20px 0px #e643ff;
+}
+
+.types-block__subtitle {
+  margin-top: 50px;
+  color: white;
+}
+
+.popup {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
+
+.popup--active {
+  display: block;
+}
+
+.popup__container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.popup__content {
+  margin: auto;
+  width: 500px;
+  background: linear-gradient(to bottom, #661180, #a91375);
+  border-radius: 20px;
+  text-align: center;
+  padding: 25px;
+  position: relative;
+}
+
+.popup__title {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+
+.popup__input {
+  display: block;
+  width: 270px;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  border: none;
+  font-size: 18px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.popup__input--focus:focus {
+  outline: none;
+}
+
+.popup__button {
+  width: 220px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: inherit;
+  border: 1px solid white;
+  cursor: pointer;
+  margin-top: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.popup__button--active:hover {
+  box-shadow: 0px 0px 20px 0px #661180;
+}
+
+.popup--close {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 56px;
+  color: white;
+  cursor: pointer;
+}
+
+.popup--close--active:hover {
+  color: silver;
+}
+
+/*********** Types-block end ***********/
+
+/*********** Smart-home-block start ***********/
+
+.smart-home {
+  height: 500px;
+}
+
+.smart-home__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.smart-home__text-container {
+}
+
+.smart-home__image-item {
+}
+
+.smart-home__title {
+  font-family: "Audiowide", sans-serif;
+  color: white;
+  font-size: 62px;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+.smart-home__text {
+  color: white;
+}
+
+.smart-home__button {
+  color: white;
+  width: 180px;
+  height: 35px;
+  font-size: 16px;
+  background-color: inherit;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.smart-home__button--active:hover {
+  box-shadow: 0px 0px 20px 0px #651197;
+}
+
+/*********** Smart-home-block end ***********/
+
+/*********** App-block start ***********/
+
+.app-block {
+  height: 950px;
+}
+
+.app-block__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.app-block__text-container {
+}
+
+.app-block__title {
+  color: white;
+  font-family: "Audiowide", sans-serif;
+  font-size: 60px;
+  margin-left: 20px;
+  letter-spacing: 8px;
+}
+
+.benefits-list {
+}
+
+.benefits-list__item {
+  margin-top: 30px;
+  color: white;
+}
+
+.app-block__download {
+  text-align: center;
+}
+
+.app-block__service-text {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.app-block__numbers-text {
+  font-size: 46px;
+  font-weight: bold;
+  letter-spacing: 14px;
+  color: white;
+  margin: 0px 0px 0px 10px;
+}
+
+.app-block__download-text {
+  color: white;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.app-block__button {
+  color: white;
+  width: 180px;
+  height: 35px;
+  font-size: 16px;
+  background-color: inherit;
+  border: 1px solid white;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.app-block__button--active:hover {
+  box-shadow: 0px 0px 20px 0px #e643ff;
+}
+
+.app-block__download-app {
+  text-align: center;
+}
+
+.app-block__logo {
+  margin-bottom: 20px;
+}
+
+.app-block__download-title {
+  color: white;
+  font-size: 36px;
+  font-family: "Audiowide", sans-serif;
+  letter-spacing: 5px;
+  margin: 20px 0px 20px 0px;
+}
+
+.app-block__image {
+  margin-top: 30px;
+}
+
+.app-block__download-button {
+  text-align: center;
+}
+
+.app-block__button-item--active:hover {
+  box-shadow: 0px 0px 20px 0px #e643ff;
+}
+
+.app-block__button-item {
+  color: white;
+  width: 180px;
+  height: 35px;
+  font-size: 16px;
+  background-color: inherit;
+  border: 1px solid white;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+
+/*********** App-block end ***********/
+
+/*********** About-us block start ***********/
+
+.about-us {
+  height: 600px;
+}
+
+.about-us__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-us__image {
+}
+
+.about-us__text-container {
+}
+
+.about-us__title {
+  font-size: 48px;
+  color: white;
+  letter-spacing: 5px;
+  margin: 0px 0px 50px 30px;
+}
+
+.about-us__text {
+  color: white;
+  margin-left: 30px;
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+.contacts-list__image {
+  float: left;
+}
+
+.contacts-list__text {
+  color: white;
+  margin: 20px 0px 0px 50px;
+}
+
+/*********** About-us block end ***********/
+
+/*********** Footer start ***********/
+
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: #ae2caa;
+  box-shadow: inset 0 0 30px #70207a;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer__text-container {
+}
+
+.footer__title {
+  color: white;
+}
+
+.footer__text {
+  color: white;
+  font-weight: bold;
+}
+
+.home-list {
+  color: white;
+  list-style: none;
+  margin-top: 100px;
+}
+
+.home-list__item {
+  margin-bottom: 20px;
+}
+
+.home-list__link {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-list {
+  color: white;
+  list-style: none;
+  margin-top: 100px;
+}
+
+.contact-list__item {
+  margin-bottom: 20px;
+}
+
+.contact-list__link {
+  color: white;
+  text-decoration: none;
+}
+
+.service-list {
+  color: white;
+  list-style: none;
+  margin-top: 100px;
+}
+
+.service-list__item {
+  margin-bottom: 20px;
+}
+
+.service-list__link {
+  color: white;
+  text-decoration: none;
+}
+
+/*********** Footer end ***********/
+
+@media screen and (max-width: 1280px) {
+  .header__logo-link {
+    padding: 20px;
+  }
+
+  .media__list {
+    display: none;
+  }
+
+  .media__item {
+    padding: 0;
+  }
+
+  .about-us__image {
+    max-width: 100%;
+  }
+
+  .menu__item {
+    margin: 30px;
+  }
+
+  .types-block__title {
+    margin-top: 80px;
+  }
+
+  .smart-home__image-item {
+    width: 450px;
+  }
+
+  .about-us__image {
+    width: 400px;
+  }
+
+  .footer__container {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .header__search-input {
+    width: 70%;
+  }
+
+  .get-started__container {
+    padding: 30px;
+  }
+
+  .get-started__title {
+    font-size: 64px;
+  }
+
+  .header__search-input {
+    margin-right: 20px;
+  }
+
+  .offers-block__image-item {
+    max-width: 100%;
+  }
+
+  .smart-home__image-item {
+    width: 400px;
+  }
+
+  .types-block {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .types-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .smart-home__text-container {
+    padding: 20px;
+  }
+
+  .about-us__image {
+    padding: 10px;
+    width: 340px;
+  }
+
+  .about-us__text {
+    word-wrap: break-word;
+  }
+
+  .footer__container {
+    padding: 20px;
+  }
+
+  .footer__text {
+    font-size: 12px;
+  }
+
+  .offers-block__container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 846px) {
+  .get-started {
+    height: 70%;
+  }
+
+  .header__search-input {
+    width: 100%;
+  }
+
+  .menu__list {
+    display: none;
+  }
+
+  .navbar-mobile__list {
+    display: block;
+    position: fixed;
+    flex-direction: column;
+    text-align: center;
+    top: 115px;
+    left: -115%;
+    background-color: #651197;
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+    z-index: 5;
+  }
+
+  .navbar-mobile__list--active {
+    left: 0;
+  }
+
+  .navbar-mobile__item {
+    font-size: 22px;
+    margin-right: 60px;
+    padding: 40px;
+  }
+
+  .header__navbar-mobile {
+    display: block;
+  }
+
+  .navbar-mobile__hamburger {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 30px;
+  }
+
+  .navbar-mobile__bar {
+    position: absolute;
+    background-color: white;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    top: 13px;
+  }
+
+  .navbar-mobile__hamburger::before,
+  .navbar-mobile__hamburger::after {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+  }
+
+  .navbar-mobile__hamburger::before {
+    top: 0;
+  }
+
+  .navbar-mobile__hamburger::after {
+    bottom: 0;
+  }
+
+  .offers-block {
+    display: flex;
+  }
+
+  .smart-home {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .offers-bottom {
+    display: flex;
+  }
+
+  .smart-home__container {
+    display: inline-block;
+    flex-direction: column-reverse;
+  }
+
+  .smart-home__text {
+    margin: 0;
+  }
+
+  .app-block {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+  }
+
+  .app-block__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .app-block__button-item {
+    margin-right: 20px;
+  }
+
+  .app-block__download-app {
+    padding: 40px 0px 0px 30px;
+  }
+
+  .about-us {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+
+  .about-us__container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .about-us__text-container {
+    margin-right: 20px;
+  }
+
+  .contacts-list {
+    display: none;
+  }
+
+  .footer {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 672px) {
+  .get-started {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .get-started__container {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .get-started__text-container {
+    display: inline-block;
+  }
+
+  .get-started__image {
+    width: 80%;
+  }
+
+  .offers-block {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .offers-block__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .offers-block__text-container {
+    padding: 20px 0px 0px 20px;
+  }
+
+  .offers-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .offers__list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 30px;
+  }
+
+  .offers-block__image-item {
+    width: 60%;
+  }
+
+  .popup__container {
+    transform: scale(0.9);
+    margin: auto;
+  }
+
+  .smart-home {
+    margin-top: 30px;
+  }
+
+  .smart-home__title {
+    font-size: 44px;
+  }
+
+  .smart-home__image-item {
+    width: 85%;
+  }
+
+  .app-block__title {
+    font-size: 46px;
+  }
+
+  .app-block__download-app {
+    margin-right: 20px;
+  }
+
+  .app-block__button {
+    margin-right: 20px;
+  }
+
+  .app-block__image {
+    width: 80%;
+  }
+
+  .benefits-list {
+    margin-right: 15px;
+  }
+
+  .footer__title {
+    display: none;
+  }
+
+  .footer__text {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 443px) {
+  .header__search-input {
+    display: none;
+  }
+
+  .offers__list {
+    margin-right: 40px;
+  }
+
+  .types-block__title {
+    font-size: 32px;
+  }
+
+  .types-list__item {
+    margin-right: 35px;
+    transform: scale(0.9);
+  }
+
+  .popup__container {
+    transform: scale(0.9);
+  }
+
+  .about-us__text-container {
+    margin-right: 20px;
+  }
+
+  .app-block__title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .app-block__title {
+    font-size: 38px;
+  }
+
+  .about-us__image {
+    width: 300px;
+  }
+}
